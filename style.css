@@ -2382,12 +2382,13 @@ html, body {
   }
 
   .adsense {
-    margin: 10px !important;
-
+    margin: 10px 0px !important;
+    overflow: hidden;
   }
 
   .adsbygoogle{
     margin-left: 0px !important;
+    width: 100% !important;
   }
 
 }
