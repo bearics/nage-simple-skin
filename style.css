@@ -60,6 +60,11 @@ iframe {
   height: 1px
 }
 
+/* adsense 디자인 추가 */
+.adsense {
+  margin: 10px 0px;
+}
+
 /* thema */
 /* thema_aqua */
 .thema_aqua .title_post:hover {
@@ -374,7 +379,6 @@ html, body {
 .menu_on .area_menu {
   left: 0;
   z-index: 2;
-  height: 100%;
 }
 
 /* area_menu */
@@ -503,7 +507,11 @@ html, body {
 
 /* header */
 #header {
-  position: relative;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  z-index: 10;
   border-bottom: 1px solid #eee;
 }
 
@@ -516,7 +524,7 @@ html, body {
 .inner_header {
   position: relative;
   max-width: 1600px;
-  height: 168px;
+  height: 80px;
   margin: 0 auto;
   text-align: center;
   box-sizing: border-box;
@@ -559,6 +567,7 @@ html, body {
 
   .inner_header .title_text {
     font-size: 21px;
+    margin: 10px 0px;
   }
 }
 
@@ -598,6 +607,11 @@ html, body {
 
 
 /* main */
+
+#main {
+  margin-top: 80px;
+}
+
 .inner_index {
   position: relative;
   max-width: 800px;
@@ -2056,7 +2070,6 @@ html, body {
   .area_menu {
     position: relative;
     width: 380px;
-    height: 100%;
     left: -380px;
   }
 
@@ -2214,7 +2227,7 @@ html, body {
   }
 
   .inner_header {
-    height: 82px;
+    height: 50px;
     padding: 6px 0;
   }
 
@@ -2368,6 +2381,15 @@ html, body {
     top: auto;
   }
 
+  .adsense {
+    margin: 10px !important;
+
+  }
+
+  .adsbygoogle{
+    margin-left: 0px !important;
+  }
+
 }
 
 /** 티스토리 스타일 커스텀 */
@@ -2439,3 +2461,4 @@ html, body {
 .another_category th span {
   vertical-align: middle;
 }
+
